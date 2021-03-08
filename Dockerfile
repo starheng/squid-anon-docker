@@ -1,5 +1,5 @@
-FROM alpine:latest
-MAINTAINER random_robbie <txt3rob@gmail.com>
+FROM alpine:3.12
+MAINTAINER VDER <starheng@gmail.com>
 RUN apk update \
     && apk add squid \
     && apk add curl \
